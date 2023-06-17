@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Svasti Tech</title>
+  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="style1.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <nav style="position: fixed;" class="navbar">
+    <ul>
+      <div class="logo1">
+        <li><img src="logo.png" alt="" class="logo"></li>
+      </div>
+      <li class="anim"><a href="index.html" style="font-size:1.2rem;">Home</a></li>
+      <li class="anim"><a href="#sec2" style="font-size:1.2rem;">Technology</a></li>
+      <div class="dropdown" style="margin:initial;">
+        <li class="anim"><a href="#" style="font-size:1.2rem;">Partners</a>
+        </li>
+        <div class="dropdown-content">
+          <div class="subdropdown">
+            <a onclick="myfunc('ccs')" href="clg_partners.html" style="font-size:1rem;text-align: initial;">Academic
+              Partners</a>
+          </div>
+
+          <div class="subdropdown">
+            <a onclick="myfunc('ccs')" href="industry_partner.html" style="font-size:1rem;text-align: initial;">Industry
+              Partners</a>
+          </div>
+        </div>
+      </div>
+
+      <li class="anim"><a href="contactus.html" style="font-size:1.2rem;">Contact us</a></li>
+      <div class="dropdown" style="margin:initial;margin-top: 0.8rem;">
+        <li class="anim" style=" color: white;font-size:1.2rem; padding: top 0px"><a href="#"
+            style="font-size:1.2rem;">Team</a></li>
+        <div class="dropdown-content">
+          <div class="subdropdown">
+            <a onclick="myfunc('ccs')" href="#" style="font-size:1rem;text-align: initial;"> Co-Founder& Director<br>S
+              Jenita </a>
+          </div>
+
+          <div class="subdropdown">
+            <a onclick="myfunc('ccs')" href="#" style="font-size:1rem;text-align: initial;">Academic advisor <br>Dr N M
+              Vijay Kumar</a>
+          </div>
+        </div>
+      </div>
+      <div class="dropdown" style="margin:initial;margin-top: 0.8rem;">
+        <li class="anim" style=" color: white; font-size:1.2rem;"><a href="#servhome">Services</a></li>
+        <div class="dropdown-content">
+
+
+          <div class="subdropdown">
+            <a onclick="myfunc('ccs')" href="#ccs" style="font-size:1rem;text-align: initial;">Cloud computing
+              services</a>
+            <div class="subdropdown-content">
+              <a onclick="myfunc('ccs')" href="#ccs" style="font-size:1rem;text-align: initial;">IAAS</a>
+              <a onclick="myfunc('ccs')" href="#ccs" style="font-size:1rem;text-align: initial;">PAAS</a>
+              <a onclick="myfunc('ccs')" href="#ccs" style="font-size:1rem;text-align: initial;">SAAS</a>
+              <a onclick="myfunc('ccs')" href="#ccs" style="font-size:1rem;text-align: initial;">Hybrid cloud</a>
+              <a onclick="myfunc('ccs')" href="#ccs" style="font-size:1rem;text-align: initial;">Multi cloud</a>
+            </div>
+          </div>
+          <div class="subdropdown">
+            <a onclick="myfunc('ais')" href="#ais" style="font-size:1rem;text-align: initial;">Artificial intelligence
+              services</a>
+            <div class="subdropdown-content">
+              <a onclick="myfunc('ais')" href="#ais" style="font-size:1rem;text-align: initial;">NLP</a>
+              <a onclick="myfunc('ais')" href="#ais" style="font-size:1rem;text-align: initial;">CV</a>
+              <a onclick="myfunc('ais')" href="#ais" style="font-size:1rem;text-align: initial;">Predictive
+                analytics</a>
+              <a onclick="myfunc('ais')" href="#ais" style="font-size:1rem;text-align: initial;">Chatbots</a>
+              <a onclick="myfunc('ais')" href="#ais" style="font-size:1rem;text-align: initial;">Recommendation
+                Engine</a>
+            </div>
+          </div>
+          <div class="subdropdown">
+            <a onclick="myfunc('bcs')" href="#bcs" style="font-size:1rem;text-align: initial;">Blockchain and
+              cybersecurity services</a>
+            <div class="subdropdown-content">
+              <a onclick="myfunc('bcs')" href="#bcs" style="font-size:1rem;text-align: initial;">BAAS</a>
+              <a onclick="myfunc('bcs')" href="#bcs" style="font-size:1rem;text-align: initial;">Cybersecurity
+                Consultancy</a>
+              <a onclick="myfunc('bcs')" href="#bcs" style="font-size:1rem;text-align: initial;">Cryptography
+                services</a>
+              <a onclick="myfunc('bcs')" href="#bcs" style="font-size:1rem;text-align: initial;">IAM</a>
+              <a onclick="myfunc('bcs')" href="#bcs" style="font-size:1rem;text-align: initial;">Smart contracts</a>
+            </div>
+          </div>
+          <div class="subdropdown">
+            <a onclick="myfunc('iots')" href="#iots" style="font-size:1rem;text-align: initial;">IOT products &
+              services</a>
+            <div class="subdropdown-content">
+              <a onclick="myfunc('iots')" href="#iots" style="font-size:1rem;text-align: initial;">Smart home
+                services</a>
+              <a onclick="myfunc('iots')" href="#iots" style="font-size:1rem;text-align: initial;">Wearable devices</a>
+              <a onclick="myfunc('iots')" href="#iots" style="font-size:1rem;text-align: initial;">Industrial IOT</a>
+              <a onclick="myfunc('iots')" href="#iots" style="font-size:1rem;text-align: initial;">Healthcare IOT</a>
+              <a onclick="myfunc('iots')" href="#iots" style="font-size:1rem;text-align: initial;">Agriculture IOT</a>
+              <a onclick="myfunc('iots')" href="#iots" style="font-size:1rem;text-align: initial;">Smart cities</a>
+              <a onclick="myfunc('iots')" href="#iots" style="font-size:1rem;text-align: initial;">IOT platform &
+                services</a>
+            </div>
+          </div>
+          <div class="subdropdown">
+            <a onclick="myfunc('rpas')" href="#rpas" style="font-size:1rem;text-align: initial;">Robotic process
+              automation services</a>
+            <div class="subdropdown-content">
+              <a onclick="myfunc('rpas')" href="#rpas" style="font-size:1rem;text-align: initial;">Finance&
+                accounting</a>
+              <a onclick="myfunc('rpas')" href="#rpas" style="font-size:1rem;text-align: initial;">Human resource</a>
+              <a onclick="myfunc('rpas')" href="#rpas" style="font-size:1rem;text-align: initial;">Custoer service</a>
+              <a onclick="myfunc('rpas')" href="#rpas" style="font-size:1rem;text-align: initial;">SCM</a>
+              <a onclick="myfunc('rpas')" href="#rpas" style="font-size:1rem;text-align: initial;">Healthcare</a>
+              <a onclick="myfunc('rpas')" href="#rpas" style="font-size:1rem;text-align: initial;">IT operation</a>
+            </div>
+          </div>
+        </div>
+    </ul>
+  </nav>
+  
+    <div class="normal-div-border" style="height:max-content;padding-bottom: 1.5rem;">
+      <div class="j-div" style="margin-top:1.8rem;">
+        <span class="img-span">
+          <img src="img/anna_univ.png" class="j-icon" style="height:9rem;">
+        </span>
+      </div>
+      <br>
+      <h2 class="new-h2">ANNA UNIVERSITY TIRUCHIRAPPALLI</h2>
+      <h5 class="new-h3">BIT CAMPUS, MANDAIYUR, TIRUCHIRAPPALLI-620024, TAMILNADU <br>
+
+      </h5>
+      <div class="d-flex justify-content-evenly">
+        <div>
+          <ul class="list-group">
+            <li class="list-group-item" style="border: none;"><img src="img/twitter.svg" alt="image"></li><br>
+            <li class="list-group-item-tw">Twitter</li>
+          </ul>
+        </div>
+        <div>
+          <div>
+            <ul class="list-group">
+              <li class="list-group-item" style="border: none;"><img src="img/youtube.svg" alt="image"></li><br>
+              <li class="list-group-item-y2">Youtube</li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <div>
+            <ul class="list-group">
+              <li class="list-group-item" style="border: none;"><img src="img/facebook.svg" alt="image"></li><br>
+              <li class="list-group-item-fb">Facebook</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="social-media-list" style="margin-top:2rem;margin-bottom: 2rem;">
+      <a href="https://twitter.com/"><img src="img/twitter.svg" alt="Twitter" title="Twitter"></a></li>
+      <a href="https://youtube.com"><img src="img/youtube.svg" alt="YouTube" title="YouTube"></a></li>
+      <a href="https://facebook.com"><img src="img/facebook.svg" alt="YouTube" title="YouTube"></a></li>
+      </div> 
+    <div class="hover-prog" >
+      <p><a style="color: black;font-size: 20px;text-decoration: none;"href="https://prognoztech.net/?referer=Svasti-Enrolments" style="font-size:1.2rem;"> Svasti-Prognoz Collaboration Courses Registration </a></p>
+    </div>-->
+    </div>
+
+    <section>
+      <footer style=" position: static;height: 3rem;font-size: 17px;" class="footer" style="font-size:1rem;">
+        <p style="margin-top: 15px;">2023 : &#169; <a style="color: black;" href="#sec1">Svasti Technology Solutions</p>
+    </section>
+</body>
+
+</html>
+  <!--<div class="loader">
+    <span class="spinner"></span>
+    <div class="progress"><h3 style="color: white;">In Progress</h3></div>
+  </div>-->

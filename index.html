@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Svasti Tech</title>
+  <meta name="description" content="Svasti Tech">
+  <meta name="Keywords" content="Svasti,Svasti Tech,Svasti Technology">
+  <link rel="canonical" href="https://www.svastitechsolns.com/">
+  <link rel="stylesheet" href="style2.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+</head>
+<style>
+  .intern:hover{
+    background-color: aquamarine;
+  }
+</style>
+<body>
+  <div class="loader">
+    <span class="spinner"></span>
+  </div>
+  <nav class="navbar">
+    <ul>
+      <div class="logo1">
+        <li><img src="logo.png" alt="" class="logo"></li>
+      </div>
+      <li class="anim"><a href="#sec1" style="font-size:1.2rem;">Home</a></li>
+      <li class="anim"><a href="#sec2" style="font-size:1.2rem;">Technology</a></li>
+      <div class="dropdown" style="margin:initial;">
+        <li class="anim"><a href="#" style="font-size:1.2rem;">Partners</a>
+        </li>
+        <div class="dropdown-content">
+          <div class="subdropdown">
+            <a onclick="myfunc('ccs')" href="clg_partners.html" style="font-size:1rem;text-align: initial;">Academic
+              Partners</a>
+          </div>
+
+          <div class="subdropdown">
+            <a onclick="myfunc('ccs')" href="industry_partner.html" style="font-size:1rem;text-align: initial;">Industry Partners</a>
+          </div>
+        </div>
+      </div>
+      
+      <li class="anim"><a href="contactus.html" style="font-size:1.2rem;">Contact us</a></li>
+      <div class="dropdown" style="margin:initial;margin-top: 0.8rem;">
+        <li class="anim"style=" color: white;font-size:1.2rem; padding: top 0px"><a href="#" style="font-size:1.2rem;">Team</a></li>
+        <div class="dropdown-content">
+          <div class="subdropdown">
+            <a onclick="myfunc('ccs')" href="#" style="font-size:1rem;text-align: initial;"> Co-Founder& Director<br>S Jenita </a>
+          </div>
+
+          <div class="subdropdown">
+            <a onclick="myfunc('ccs')" href="#" style="font-size:1rem;text-align: initial;">Academic advisor <br>Dr N M
+              Vijay Kumar</a>
+          </div>
+        </div>
+      </div>
+      <div class="dropdown" style="margin:initial;margin-top: 0.8rem;">
+        <li class="anim" style=" color: white; font-size:1.2rem;"><a href="#servhome">Services</a></li>
+        <div class="dropdown-content">
+
+
+          <div class="subdropdown">
+            <a onclick="myfunc('ccs')" href="#ccs" style="font-size:1rem;text-align: initial;">Cloud computing
+              services</a>
+            <div class="subdropdown-content">
+              <a onclick="myfunc('ccs')" href="#ccs" style="font-size:1rem;text-align: initial;">IAAS</a>
+              <a onclick="myfunc('ccs')" href="#ccs" style="font-size:1rem;text-align: initial;">PAAS</a>
+              <a onclick="myfunc('ccs')" href="#ccs" style="font-size:1rem;text-align: initial;">SAAS</a>
+              <a onclick="myfunc('ccs')" href="#ccs" style="font-size:1rem;text-align: initial;">Hybrid cloud</a>
+              <a onclick="myfunc('ccs')" href="#ccs" style="font-size:1rem;text-align: initial;">Multi cloud</a>
+            </div>
+          </div>
+          <div class="subdropdown">
+            <a onclick="myfunc('ais')" href="#ais" style="font-size:1rem;text-align: initial;">Artificial intelligence  services</a>
+            <div class="subdropdown-content">
+              <a onclick="myfunc('ais')" href="#ais" style="font-size:1rem;text-align: initial;">NLP</a>
+              <a onclick="myfunc('ais')" href="#ais" style="font-size:1rem;text-align: initial;">CV</a>
+              <a onclick="myfunc('ais')" href="#ais" style="font-size:1rem;text-align: initial;">Predictive analytics</a>
+              <a onclick="myfunc('ais')" href="#ais" style="font-size:1rem;text-align: initial;">Chatbots</a>
+              <a onclick="myfunc('ais')" href="#ais" style="font-size:1rem;text-align: initial;">Recommendation
+                Engine</a>
+            </div>
+          </div>
+          <div class="subdropdown">
+            <a onclick="myfunc('bcs')" href="#bcs" style="font-size:1rem;text-align: initial;">Blockchain and cybersecurity services</a>
+            <div class="subdropdown-content">
+              <a onclick="myfunc('bcs')" href="#bcs" style="font-size:1rem;text-align: initial;">BAAS</a>
+              <a onclick="myfunc('bcs')" href="#bcs" style="font-size:1rem;text-align: initial;">Cybersecurity Consultancy</a>
+              <a onclick="myfunc('bcs')" href="#bcs" style="font-size:1rem;text-align: initial;">Cryptography services</a>
+              <a onclick="myfunc('bcs')" href="#bcs" style="font-size:1rem;text-align: initial;">IAM</a>
+              <a onclick="myfunc('bcs')" href="#bcs" style="font-size:1rem;text-align: initial;">Smart contracts</a>
+            </div>
+          </div>
+          <div class="subdropdown">
+            <a onclick="myfunc('iots')" href="#iots" style="font-size:1rem;text-align: initial;">IOT products &
+              services</a>
+            <div class="subdropdown-content">
+              <a onclick="myfunc('iots')" href="#iots" style="font-size:1rem;text-align: initial;">Smart home services</a>
+              <a onclick="myfunc('iots')" href="#iots" style="font-size:1rem;text-align: initial;">Wearable devices</a>
+              <a onclick="myfunc('iots')" href="#iots" style="font-size:1rem;text-align: initial;">Industrial IOT</a>
+              <a onclick="myfunc('iots')" href="#iots" style="font-size:1rem;text-align: initial;">Healthcare IOT</a>
+              <a onclick="myfunc('iots')" href="#iots" style="font-size:1rem;text-align: initial;">Agriculture IOT</a>
+              <a onclick="myfunc('iots')" href="#iots" style="font-size:1rem;text-align: initial;">Smart cities</a>
+              <a onclick="myfunc('iots')" href="#iots" style="font-size:1rem;text-align: initial;">IOT platform &
+                services</a>
+            </div>
+          </div>
+          <div class="subdropdown">
+            <a onclick="myfunc('rpas')" href="#rpas" style="font-size:1rem;text-align: initial;">Robotic process
+              automation services</a>
+            <div class="subdropdown-content">
+              <a onclick="myfunc('rpas')" href="#rpas" style="font-size:1rem;text-align: initial;">Finance& accounting</a>
+              <a onclick="myfunc('rpas')" href="#rpas" style="font-size:1rem;text-align: initial;">Human resource</a>
+              <a onclick="myfunc('rpas')" href="#rpas" style="font-size:1rem;text-align: initial;">Custoer service</a>
+              <a onclick="myfunc('rpas')" href="#rpas" style="font-size:1rem;text-align: initial;">SCM</a>
+              <a onclick="myfunc('rpas')" href="#rpas" style="font-size:1rem;text-align: initial;">Healthcare</a>
+              <a onclick="myfunc('rpas')" href="#rpas" style="font-size:1rem;text-align: initial;">IT operation</a>
+            </div>
+          </div>
+        </div>
+    </ul>
+  </nav>
+  <section id="sec1">
+    <video autoplay loop muted plays-inline>
+      <source src="bgvdeo.mp4" type="video/mp4">
+    </video>
+    <div>
+      <div class="header">
+        <h1 class="design" style="font-size: 5.4rem; ">Svasti Technology Solutions</h1>
+      </div>
+      <div style="padding:90px;display: none;">
+        <p class="intern"><a style="color: black;font-size: 25px;text-decoration: none;"href="https://forms.gle/Xa914yrFHvQWngR8A" style="font-size:1.2rem;"> Internship Registration </a></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="sec2">
+    <div>
+      <div style="display: flex;flex-direction: row;justify-content: center;">
+        <p class="intern" style="width:20%;margin: 10px;border-radius: 10px;text-align: center;padding: 10px;"><a style="color: black;font-size: 20px;text-decoration: none;"href="https://forms.gle/iwPCwWBZ1FgPEXyi9" style="font-size:1.2rem;"> Internship Registration </a></p>
+      </div>
+      <h1 class="head" style="font-size: 3rem;">Our Technologies</h1>
+      <ul style="display:flex;flex-direction: row;justify-content: center;">
+        <li class="booking-card" style="background-image: url(img/CC.jpg)">
+          <div class="book-container">
+          </div>
+          <div class="informations-container">
+            <h2 class="title">CLOUD COMPUTING</h2>
+            <div class="more-information">
+              <p class="disclaimer">Cloud computing is an enterprise solution that has gained a lot of popularity in
+                recent years. It allows businesses to store and access their data and applications over the internet,
+                rather than having to rely on local servers and infrastructure.</p>
+            </div>
+          </div>
+        </li>
+        <li class="booking-card" style="background-image: url(img/AI.jpg)">
+          <div class="book-container">
+          </div>
+          <div class="informations-container">
+            <h2 class="title">ARTIFICIAL INTELLIGENCE</h2>
+            <div class="more-information">
+              <p class="disclaimer">AI is a technology that is rapidly transforming the enterprise landscape. It can be
+                used to automate processes, make predictions, and provide insights that can help businesses make more
+                informed decisions.</p>
+            </div>
+          </div>
+        </li>
+        <li class="booking-card" style="background-image: url(img/BC.jpg)">
+          <div class="book-container">
+          </div>
+          <div class="informations-container">
+            <h2 class="title">BLOCK CHAIN</h2>
+            <div class="more-information">
+              <p class="disclaimer">Blockchain is a distributed ledger technology that allows businesses to securely
+                record and share data across a network of computers. It has the potential to revolutionize industries
+                such as finance, healthcare, and supply chain management.</p>
+            </div>
+          </div>
+        </li>
+        <li class="booking-card" style="background-image: url(img/IOT.webp)">
+          <div class="book-container">
+          </div>
+          <div class="informations-container">
+            <h2 class="title">INTERNET OF THINGS</h2>
+            <div class="more-information">
+              <p class="disclaimer">IoT is a network of connected devices that can collect and transmit data. It can be
+                used in enterprise settings to improve efficiency, automate processes, and provide real-time insights.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="booking-card" style="background-image: url(img/RPA.jpg)">
+          <div class="book-container">
+          </div>
+          <div class="informations-container">
+            <h2 class="title">ROBOTIC PROCESS AUTOMATION</h2>
+            <div class="more-information">
+              <p class="disclaimer"> RPA is a technology that allows businesses to automate repetitive tasks, freeing up
+                employees to focus on more strategic activities. It can be used to automate tasks such as data entry,
+                invoice processing, and customer service.</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div style="display: flex;flex-direction: row;justify-content: center;">
+        <p class="intern" style="width:20%;margin: 10px;border-radius: 10px;text-align: center;padding: 10px;"><a style="color: black;font-size: 20px;text-decoration: none;" href="https://forms.gle/Xa914yrFHvQWngR8A" style="font-size:1.2rem;"> Internship Registration </a></p>
+      </div>
+  </section>
+  <section>
+    <section style="color:black" id="servhome">
+      <div class="main">
+      </div>
+    </section>
+    <section style="text-align: center;">
+      <ul class="button"><br>
+        <li><button class="btn" type="button" onclick="myfunc('ccs')"><a style="text-decoration: none; color:black;" href="#ccs">CLOUD
+              COMPUTING SERVICES</a></button></li>
+        <li><button class="btn" type="button" onclick="myfunc('ais')"><a style="text-decoration: none; color:black;" href="#ais">ARTIFICIAL
+              INTELLIGENCE SERVICES</a></button></li>
+        <li><button class="btn" type="button" onclick="myfunc('bcs')"><a style="text-decoration: none; color:black;" href="#bcs">BLOCKCHAIN &
+              CYBERSECURITY SERVICES</a></button></li>
+        <li><button class="btn" type="button" onclick="myfunc('iots')"><a style="text-decoration: none; color:black;" href="#iots">IOT PRODUCTS
+              & SERVICES</a></button></li>
+        <li><button class="btn" type="button" onclick="myfunc('rpas')"><a style="text-decoration: none; color:black;" href="#rpas">ROBOTIC
+              PROCESS AUTOMATION SERVICES</a></button></li>
+      </ul>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div id="ccs">
+        <ul class="row">
+          <h2>CLOUD COMPUTING SERVICES</h2>
+          <br>
+          <li><b>Infrastructure as a Service (IaaS): </b><br>
+            IaaS provides businesses with access to virtualized computing resources such as servers, storage and
+            networking. This allows businesses to avoid the upfront costs of purchasing and maintaining their own
+            hardware.
+          </li>
+          <li><b>Platform as a Service (PaaS): </b><br>
+            PaaS provides businesses with a platform to develop, test and deploy applications. PaaS typically includes
+            the infrastructure needed to support application development such as operating systems, programming
+            languages, and databases.
+          </li>
+          <li><b>Software as a Service (SaaS): </b><br>
+            SaaS provides businesses with access to software applications over the internet, typically on a subscription
+            basis. SaaS eliminates the need for businesses to install and maintain their own software applications.
+          </li>
+          <li><b>Hybrid Cloud: </b><br>
+            Hybrid cloud is a combination of public and private cloud infrastructure. This allows businesses to take
+            advantage of the scalability and cost-effectiveness of public cloud services, while also maintaining control
+            over sensitive data and applications on a private cloud.
+          </li>
+          <li><b>Multi-Cloud: </b><br>
+            Multi-cloud refers to the use of multiple cloud computing services from different providers. This can
+            provide businesses with greater flexibility and the ability to choose the best cloud services for each
+            specific use case.
+          </li>
+        </ul>
+      </div>
+      <div id="ais">
+        <ul class="row">
+          <h2>ARTIFICIAL INTELLIGENCE SERVICES</h2>
+          <br>
+          <li><b>Natural Language Processing (NLP): </b><br>
+            NLP is a branch of AI that enables computers to understand and interpret human language. NLP can be used to
+            automate customer service interactions, extract insights from customer feedback, and analyze social media
+            sentiment.
+          </li>
+          <li><b>Computer Vision (CV): </b><br>
+            Computer vision is a field of AI that enables machines to interpret and understand images and videos.
+            Computer vision can be used in a variety of applications, such as facial recognition, object detection, and
+            autonomous driving.
+          </li>
+          <li><b>Predictive analytics: </b><br>
+            Predictive analytics is a branch of AI that uses machine learning algorithms to make predictions based on
+            historical data. Predictive analytics can be used to forecast sales, identify high-risk customers, and
+            optimize supply chain management.
+          </li>
+          <li><b>Chatbots: </b><br>
+            Chatbots are AI-powered conversational interfaces that can interact with customers and provide support.
+            Chatbots can be used to automate customer service interactions, answer frequently asked questions, and
+            provide personalized recommendations.
+          </li>
+          <li><b>Recommendation Engine: </b><br>
+            Recommendation engines are AI-powered systems that provide personalized recommendations to customers based
+            on their behavior and preferences. Recommendation engines can be used in e-commerce, streaming services, and
+            social media platforms to improve the customer experience and increase engagement.
+          </li>
+        </ul>
+      </div>
+      <div id="bcs">
+        <ul class="row">
+          <h2>BLOCKCHAIN & CYBERSECURITY SERVICES</h2>
+          <br>
+          <li><b>Blockchain as a Service (BaaS): </b><br>
+            BaaS allows businesses to build and deploy blockchain applications without having to set up and manage their
+            own blockchain infrastructure. This can include blockchain-based supply chain management, digital identity
+            solutions, and smart contracts.
+          </li>
+          <li><b>Cybersecurity Consultancy: </b><br>
+            Cybersecurity consulting services can help businesses identify vulnerabilities in their systems and develop
+            strategies to prevent cyber attacks. These services can include vulnerability assessments, penetration
+            testing, and incident response planning.
+          </li>
+          <li><b>Cryptography Services: </b><br>
+            Cryptography services use cryptographic techniques to secure data and protect against cyber threats. These
+            services can include encryption, decryption, digital signatures, and key management.
+          </li>
+          <li><b>Identity and Access Management (IAM): </b><br>
+            IAM services provide a way for businesses to manage user identities and access to resources. IAM can help
+            prevent unauthorized access to sensitive data and applications.
+          </li>
+          <li><b>Smart Contracts: </b><br>
+            Smart contracts are self-executing contracts with the terms of the agreement between buyer and seller being
+            directly written into lines of code. They can be used to automate business processes, enforce contracts, and
+            reduce the risk of fraud. Smart contracts can be deployed on a blockchain, providing an additional layer of
+            security and transparency.
+          </li>
+        </ul>
+      </div>
+      <div id="iots">
+        <ul class="row">
+          <h2>IOT PRODUCTS & SERVICES</h2>
+          <br>
+          <li><b>Smart home services: </b><br>
+            These are devices that can be controlled and monitored remotely using a smartphone or tablet, such as smart
+            thermostats, lighting systems, door locks, and security cameras.
+          </li>
+          <li><b>Wearable Devices: </b><br>
+            These are devices that are worn on the body and can monitor health and fitness, such as smartwatches and
+            fitness trackers.
+          </li>
+          <li><b>Industrial IOT: </b><br>
+            IoT is also used in industrial settings, such as manufacturing, transportation, and logistics, to monitor
+            and optimize production processes and supply chain operations.
+          </li>
+          <li><b>Healthcare IOT: </b><br>
+            IoT is used in healthcare to monitor patient health remotely and provide real-time data to healthcare
+            providers, such as remote monitoring devices, smart hospital beds, and medical wearables.
+          </li>
+          <li><b>Agriculture IOT: </b><br>
+            IoT is used in agriculture to monitor crop growth, soil conditions, and weather patterns, and to optimize
+            irrigation and fertilization.
+          </li>
+          <li><b>Smart Cities: </b><br>
+            IoT is used to improve urban infrastructure and services, such as traffic management, waste management, and
+            energy efficiency.
+          </li>
+          <li><b>IOT Platform and Services: </b><br>
+            There are also various IoT platforms and services that enable the development, deployment, and management of
+            IoT applications, such as cloud-based IoT platforms, data analytics services, and security services.
+          </li>
+        </ul>
+      </div>
+      <div id="rpas">
+        <ul class="row">
+          <h2>ROBOTIC PROCESS AUTOMATION SERVICES</h2>
+          <br>
+          <li><b>Finance & Accounting: </b><br>
+            RPA can be used to automate tasks such as accounts payable and receivable, financial reporting, and
+            auditing, reducing errors and increasing efficiency.
+          </li>
+          <li><b>Human Resource: </b><br>
+            RPA can automate tasks such as onboarding and offboarding employees, payroll processing, and benefits
+            administration, reducing administrative workload and increasing accuracy.
+          </li>
+          <li><b>Customer Service: </b><br>
+            RPA can be used to automate tasks such as order processing, customer inquiries, and support ticket handling,
+            improving response times and reducing errors.
+          </li>
+          <li><b>Supply Chain Management (SCM): </b><br>
+            RPA can be used to automate tasks such as inventory management, order processing, and shipment tracking,
+            improving efficiency and reducing costs.
+          </li>
+          <li><b>Healthcare: </b><br>
+            RPA can automate tasks such as appointment scheduling, claims processing, and medical record keeping,
+            reducing administrative workload and improving patient outcomes.
+          </li>
+          <li><b>IT Operation: </b><br>
+            RPA can be used to automate tasks such as system monitoring, software updates, and user account management,
+            improving efficiency and reducing downtime.
+          </li>
+        </ul>
+      </div>
+      </div>
+    </section>
+  </section>
+  <section>
+    <footer class="footer" style="font-size:1rem;">
+      <p>2023 : &#169; <a style="color: black;" href="#sec1">Svasti Technology Solutions</p>
+  </section>
+  <script>
+
+    function myfunc(name) {
+
+      var a = document.getElementById('ccs')
+      var b = document.getElementById('ais')
+      var c = document.getElementById('bcs')
+      var d = document.getElementById('iots')
+      var e = document.getElementById('rpas')
+
+      console.log(name);
+      if (name === "rpas") {
+        a.style.display = 'none'
+        b.style.display = 'none'
+        c.style.display = 'none'
+        d.style.display = 'none'
+        e.style.display = 'block'
+      }
+      else if (name === "iots") {
+        a.style.display = 'none'
+        b.style.display = 'none'
+        c.style.display = 'none'
+        d.style.display = 'block'
+        e.style.display = 'none'
+      }
+      else if (name === "bcs") {
+        a.style.display = 'none'
+        b.style.display = 'none'
+        c.style.display = 'block'
+        d.style.display = 'none'
+        e.style.display = 'none'
+      }
+      else if (name === "ais") {
+        a.style.display = 'none'
+        b.style.display = 'block'
+        c.style.display = 'none'
+        d.style.display = 'none'
+        e.style.display = 'none'
+      }
+      else if (name === "ccs") {
+        a.style.display = 'block'
+        b.style.display = 'none'
+        c.style.display = 'none'
+        d.style.display = 'none'
+        e.style.display = 'none'
+      }
+    }
+  </script>
+  <script>
+    const load = document.querySelector(".loader");
+    window.addEventListener("load", function () {
+      load.style.display = "none";
+    })
+  </script>
+  <script>
+    function scrollToSection(id) {
+      document.getElementById(id).scrollIntoView({
+        behavior: 'smooth'
+      });
+    }
+  </script>
+
+</body>
+
+</html>
